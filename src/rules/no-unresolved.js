@@ -18,6 +18,6 @@ module.exports = function (context) {
   return {
     'ImportDeclaration': checkSource,
     'ExportNamedDeclaration': checkSource,
-    'ExportAllDeclaration': checkSource
+    'ExportAllDeclaration': checkSource,
   }
 }
