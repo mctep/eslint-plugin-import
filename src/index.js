@@ -1,5 +1,6 @@
 export const rules = {
   'no-unresolved': require('./rules/no-unresolved')
+, 'no-unresolved-require': require('./rules/no-unresolved-require')
 , 'named': require('./rules/named')
 , 'default': require('./rules/default')
 , 'namespace': require('./rules/namespace')
@@ -17,6 +18,7 @@ export const rules = {
 export const rulesConfig = {
 
   'no-unresolved': 0
+, 'no-unresolved-require': 0
 , 'named': 0
 , 'namespace': 0
 , 'default': 0
